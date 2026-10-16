@@ -27,6 +27,14 @@ Sistem soruları aşamalı sorar. Instagram/Reels incelemesi gerektiğinde Work 
 
 Yönetici güncelleme duyurduğunda aynı `KRALI-Kurulum.bat` dosyasını tekrar çalıştırın ve ChatGPT masaüstü uygulamasını yeniden başlatın. Kurucu güncel paketi GitHub'dan indirir; eski KRALİ klasörünü silmeden yedekler.
 
+## Eklenti görünmüyorsa
+
+1. Güncel ZIP paketini yeniden indirin ve klasöre çıkartın.
+2. `installers/windows/KRALI-Teshis.bat` dosyasına çift tıklayın.
+3. Masaüstünde oluşan `KRALI-Teshis.txt` dosyasını yöneticiye gönderin.
+
+Teşhis dosyası yalnızca Windows/ChatGPT sürümünü ve KRALİ kurulum dosyalarının bulunup bulunmadığını kaydeder. Sohbet, parola, çerez, tarayıcı geçmişi veya Instagram verisi okumaz.
+
 ## Gizlilik ve kullanım sınırları
 
 - Yalnızca herkese açık marka, rakip ve referans içerikleri incelenir.
