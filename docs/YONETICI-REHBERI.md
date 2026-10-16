@@ -15,10 +15,9 @@
 
 ## Çalışan güncelleme komutları
 
-```sh
-codex plugin marketplace upgrade krali
-codex plugin add krali-marka-arastirma@krali
-```
+Çalışanlara deponun ZIP paketini veya yalnızca `installers/windows` klasörünü iletin. Çalışan `KRALI-Kurulum.bat` dosyasını çift tıklar. Kurucu güncel ince paketi bu GitHub deposundan indirir; Codex CLI gerektirmez.
+
+Kurulumdan veya güncellemeden sonra çalışan ChatGPT masaüstü uygulamasını yeniden başlatır. İlk kurulumda Eklentiler dizinindeki kişisel kaynaktan **KRALİ Marka Araştırma** eklentisini yükler.
 
 ## Sistemi durdurma
 

@@ -8,14 +8,22 @@ The package connects Codex to the centrally hosted, verified Site App:
 
 The App binding lets the Site receive the signed-in ChatGPT identity. The package contains no shared API key or employee password.
 
-## Install
+## ChatGPT desktop install (Windows, no Codex CLI)
+
+Download the repository ZIP, extract it, open `installers/windows`, and double-click `KRALI-Kurulum.bat`.
+
+The installer downloads the current thin package from this repository, copies it into the signed-in Windows user's personal ChatGPT plugin area, and adds KRALI to the personal marketplace without deleting other marketplace entries. Restart ChatGPT desktop, open the Plugins Directory, choose the personal source, and install KRALI Marka Araştırma.
+
+Running the same installer again updates the local package. The installer preserves timestamped backups of an existing KRALI package and personal marketplace file.
+
+## Developer install with Codex CLI
 
 ```sh
 codex plugin marketplace add izmirli-ali/krali-marketplace --ref main
 codex plugin add krali-marka-arastirma@krali
 ```
 
-Restart Codex after installation.
+Restart the ChatGPT desktop app after installation.
 
 ## Update
 
@@ -24,7 +32,7 @@ codex plugin marketplace upgrade krali
 codex plugin add krali-marka-arastirma@krali
 ```
 
-Restart Codex after updating.
+Restart the ChatGPT desktop app after updating.
 
 ## Remove
 
