@@ -3,7 +3,8 @@
 ## Mimari
 
 - Ana uygulama ve sunucu kaynakları özel depoda tutulur.
-- Bu dağıtım deposu yalnızca eklenti manifestlerini, çalışma talimatını ve canlı MCP adresini içerir.
+- Bu dağıtım deposu yalnızca eklenti manifestlerini, çalışma talimatını ve doğrulanmış Site App kimliğini içerir.
+- Bağlantı, çalışan parolası veya ortak API anahtarı yerine ChatGPT'nin App kimlik bağlamını kullanır.
 - Araştırma verileri ve sahiplik anahtarları GitHub'a konulmaz.
 
 ## Sürüm yayınlama

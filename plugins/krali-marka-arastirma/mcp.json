@@ -1,9 +1,0 @@
-{
-  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
-  "mcpServers": {
-    "krali-marka-arastirma": {
-      "type": "streamable-http",
-      "url": "https://krali-arastirma-gate.neon-siren-7953.chatgpt.site/mcp"
-    }
-  }
-}

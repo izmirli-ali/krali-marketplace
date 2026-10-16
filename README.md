@@ -2,9 +2,11 @@
 
 This repository contains the thin Codex distribution package for KRALİ Marka Araştırma. It does not contain the application, database, research records, owner controls, or server source code.
 
-The package connects Codex to the centrally hosted MCP endpoint:
+The package connects Codex to the centrally hosted, verified Site App:
 
-`https://krali-arastirma-gate.neon-siren-7953.chatgpt.site/mcp`
+`asdk_app_sites_5ad64395c15481918a00addd7e14076a`
+
+The App binding lets the Site receive the signed-in ChatGPT identity. The package contains no shared API key or employee password.
 
 ## Install
 
