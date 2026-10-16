@@ -1,0 +1,20 @@
+{
+  "name": "krali",
+  "interface": {
+    "displayName": "KRALİ"
+  },
+  "plugins": [
+    {
+      "name": "krali-marka-arastirma",
+      "source": {
+        "source": "local",
+        "path": "./plugins/krali-marka-arastirma"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Marketing"
+    }
+  ]
+}

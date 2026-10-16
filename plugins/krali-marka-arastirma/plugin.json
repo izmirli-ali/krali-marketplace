@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "krali-marka-arastirma",
+  "version": "1.2.0",
+  "description": "Kanıta dayalı marka, rakip, reklam ve referans içerik araştırması.",
+  "author": {
+    "name": "KRALİ"
+  },
+  "homepage": "https://krali-arastirma-gate.neon-siren-7953.chatgpt.site/",
+  "keywords": [
+    "marka araştırması",
+    "rakip analizi",
+    "instagram reels",
+    "meta reklam kütüphanesi",
+    "içerik stratejisi"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "KRALİ Marka Araştırma",
+        "shortDescription": "Marka ve içerik araştırması",
+        "longDescription": "Çoklu kaynaklarla marka doğrulaması, rakip ve Meta reklam analizi, Work modunda Reels incelemesi ve kanıtlı referans içerik kütüphanesi oluşturur.",
+        "developerName": "KRALİ",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Yeni bir marka araştırması başlatmak istiyorum.",
+          "Bir markanın sosyal medya ve rakip analizini yap.",
+          "Bu marka için referans Reels kütüphanesi oluştur."
+        ],
+        "websiteURL": "https://krali-arastirma-gate.neon-siren-7953.chatgpt.site/"
+      }
+    }
+  }
+}
